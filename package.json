@@ -1,19 +1,21 @@
 {
-  "name": "back",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.2",
-    "express-handlebars": "^3.0.0"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1"
-  }
+    "name": "lgos-front-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon ./server.js",
+        "debug": "nodemon --inspect ./server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.2",
+        "express-handlebars": "^3.0.0"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "nodemon": "^1.13.3"
+    }
 }
